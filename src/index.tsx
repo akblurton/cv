@@ -8,6 +8,17 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <style>
+      {`* {
+        padding: 0;
+        margin: 0;
+      }
+
+      html {
+        overflow: hidden;
+      }
+      `}
+    </style>
     <App />
   </React.StrictMode>
 );

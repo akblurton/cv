@@ -15,7 +15,27 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "baseUrl": "src",
+    "paths": {
+      "assets": ["./src/assets/*"]
+    }
   },
-  "include": ["src"]
+  "include": ["src", "scripts"],
+  "ts-node": {
+    // It is faster to skip typechecking.
+    // Remove if you want ts-node to do typechecking.
+    "require": ["tsconfig-paths/register"],
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+      "module": "Node16",
+      // compilerOptions specified here will override those declared below,
+      // but *only* in ts-node.  Useful if you want ts-node and tsc to use
+      // different options with a single tsconfig.json.
+      "paths": {
+        "assets": ["./scripts/assets/*"]
+      }
+    }
+  }
 }

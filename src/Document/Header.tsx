@@ -1,6 +1,6 @@
 import { StyleSheet, View, Text } from "@react-pdf/renderer";
 
-import FontFamily from "./font";
+import FontFamily, { BOLD } from "./font";
 const styles = StyleSheet.create({
   header: {
     fontFamily: FontFamily,
@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   name: {
-    fontWeight: "bold",
+    fontFamily: BOLD,
     fontSize: "12pt",
   },
   role: {

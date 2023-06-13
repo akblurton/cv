@@ -1,7 +1,11 @@
 import { Document as Doc } from "@react-pdf/renderer";
 import Page from "./Page";
+
 import Socials from "./Socials";
 import Summary from "./Summary";
+import Career from "./Career";
+
+import "../data/career";
 
 const Document: React.FC = () => {
   return (
@@ -10,7 +14,9 @@ const Document: React.FC = () => {
         <Socials />
         <Summary />
       </Page>
-      <Page></Page>
+      <Page>
+        <Career />
+      </Page>
     </Doc>
   );
 };

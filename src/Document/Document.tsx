@@ -1,18 +1,16 @@
-import { Document as Doc, Page } from "@react-pdf/renderer";
-import Background from "./Background";
-import Header from "./Header";
+import { Document as Doc } from "@react-pdf/renderer";
+import Page from "./Page";
 import Socials from "./Socials";
 import Summary from "./Summary";
 
 const Document: React.FC = () => {
   return (
     <Doc title="Curriculum Vitae" author="Ashley Blurton">
-      <Page size="A4">
-        <Background />
-        <Header />
+      <Page>
         <Socials />
         <Summary />
       </Page>
+      <Page></Page>
     </Doc>
   );
 };

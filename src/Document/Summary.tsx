@@ -50,12 +50,12 @@ const styles = StyleSheet.create({
 const Summary: React.FC = () => {
   return (
     <View fixed={true} style={styles.header}>
-      <Text style={styles.title}>At a Glance</Text>
+      <Text style={styles.title}>A little about me</Text>
       <Text style={styles.paragraph}>
         I am a fullstack engineer with over a decade of experience in the
         industry. Primarily stationed in the fast moving world of start ups, I
-        am a firm believer that engineers should be engaged with the product
-        process from day 1.
+        am a firm believer that engineers should be engaged with product process
+        & discovery from day 1.
       </Text>
       <Text style={styles.paragraph}>
         With a background in frontend engineering, I am obsessive over the
@@ -66,10 +66,10 @@ const Summary: React.FC = () => {
         user.
       </Text>
       <Text style={styles.paragraph}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
-        necessitatibus recusandae minus nemo magnam, voluptas maiores suscipit
-        eum amet cum. Facilis ipsam quos incidunt architecto ex. Quis unde amet
-        incidunt.
+        I am at my best when I'm making a significant impact- whether that's
+        rapidly building prototypes, improving the developer experience, or
+        adding to long term products. Being able to see the positive impact of
+        my work is what motivates me the most.
       </Text>
       <Text style={styles.title}>Proficiencies</Text>
       <View style={styles.skills}>
@@ -89,12 +89,7 @@ const Summary: React.FC = () => {
         ))}
       </View>
       <Text style={styles.title}>My Role</Text>
-      <Text style={styles.paragraph}>
-        I am at my best when I'm getting stuck into a product. Whether that's
-        rapidly building prototypes, aiding in the discovery process, or
-        maintaining long term offerings; I'm happy as long as I'm making an
-        impact.
-      </Text>
+      <Text style={styles.paragraph}></Text>
     </View>
   );
 };

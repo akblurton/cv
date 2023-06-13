@@ -16,4 +16,6 @@ Font.register({
   ],
 });
 
+Font.registerHyphenationCallback((word) => [word]);
+
 export default FONT_FAMILY;

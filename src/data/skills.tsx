@@ -10,12 +10,12 @@ const skills = [
     icon: Logos.Javascript,
   },
   {
-    name: "Redux",
-    icon: Logos.Redux,
-  },
-  {
     name: "React",
     icon: Logos.React,
+  },
+  {
+    name: "Redux",
+    icon: Logos.Redux,
   },
   {
     name: "Redux Saga",

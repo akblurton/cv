@@ -21,3 +21,7 @@ export { default as Stylus } from "./logos/stylus.png";
 export { default as SASS } from "./logos/sass.png";
 export { default as CircleCI } from "./logos/circleci.png";
 export { default as GithubActions } from "./logos/github-actions.png";
+export { default as Ember } from "./logos/ember.png";
+export { default as BlendMedia } from "./logos/blendmedia.png";
+export { default as Minimum } from "./logos/minimum.png";
+export { default as Freetrade } from "./logos/freetrade.png";

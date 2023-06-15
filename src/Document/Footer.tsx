@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
   footer: {
     fontFamily: FontFamily,
     paddingHorizontal: "0.5cm",
-    paddingVertical: "0.5cm",
+    paddingVertical: "0.2cm",
     position: "absolute",
     bottom: "0",
     left: "0",

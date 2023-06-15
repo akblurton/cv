@@ -78,6 +78,10 @@ const skills = [
     icon: Logos.Elixir,
   },
   {
+    name: "Phoenix Framework",
+    icon: Logos.Phoenix,
+  },
+  {
     name: "PostgreSQL",
     icon: Logos.Postgres,
   },
@@ -92,6 +96,10 @@ const skills = [
   {
     name: "Zeplin",
     icon: Logos.Zeplin,
+  },
+  {
+    name: "JIRA",
+    icon: Logos.JIRA,
   },
 ] as const;
 

@@ -13,8 +13,6 @@ const Document: React.FC = () => {
       <Page>
         <Socials />
         <Summary />
-      </Page>
-      <Page>
         <Career />
       </Page>
     </Doc>

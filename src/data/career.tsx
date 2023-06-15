@@ -10,7 +10,7 @@ type CareerEntry = {
   summary: string;
   personalHighlights: string[];
   logo?: string;
-  website?: string;
+  website: string;
   dateStart: Date;
   dateEnd?: Date;
 };
@@ -35,6 +35,9 @@ const career: CareerEntry[] = [
       "Turborepo",
       "Styled Components",
       "Auth0",
+      "Python",
+      "Django",
+      "Postgres",
     ],
     role: "Senior Frontend Engineer",
     summary: `Joined founding frontend engineer to double team size and work on
@@ -51,9 +54,9 @@ const career: CareerEntry[] = [
       code duplication, better type checking, and increased guard behaviour on
       erroneous network calls.`,
     ],
-    website: "https://stock.blend.media/360-stock",
+    website: "https://minimum.com",
     dateStart: parse("2022-10-11"),
-    dateEnd: parse("2022-06-01"),
+    dateEnd: parse("2023-06-01"),
     logo: Logos.Minimum,
   },
   {
@@ -68,6 +71,7 @@ const career: CareerEntry[] = [
       "GraphQL",
       "Turborepo",
       "GCP",
+      "Firestore",
       "ConcourseCI",
     ],
     industry: ["Finance", "Taxation", "B2B", "Start-up", "SaaS"],
@@ -88,7 +92,7 @@ const career: CareerEntry[] = [
       engineers on the team on best practices for testing and react.
     `,
     ],
-    website: "https://stock.blend.media/360-stock",
+    website: "https://ember.co",
     dateStart: parse("2022-06-17"),
     dateEnd: parse("2022-10-01"),
     logo: Logos.Ember,
@@ -121,7 +125,7 @@ const career: CareerEntry[] = [
        (backend-for-frontend) to a GraphQL implementation, including integration
        and unit test suites.`,
     ],
-    website: "https://stock.blend.media/360-stock",
+    website: "https://web.freetrade.io",
     dateStart: parse("2022-03-10"),
     dateEnd: parse("2022-06-01"),
     logo: Logos.Freetrade,

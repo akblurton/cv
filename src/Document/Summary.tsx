@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
 const Summary: React.FC = () => {
   return (
     <>
-      <Heading>A little about me</Heading>
+      <Heading>Overview</Heading>
       <Paragraph>
-        I am a fullstack engineer with over a decade of experience in the
-        industry. Primarily stationed in the fast moving world of start ups, I
-        am a firm believer that engineers should be engaged with product process
-        & discovery from day 1.
+        A fullstack engineer with over a decade of experience in the industry.
+        Primarily stationed in the fast moving world of start ups, I am a firm
+        believer that engineers should be engaged with product process &
+        discovery from day 1.
       </Paragraph>
       <Paragraph>
         With a background in frontend engineering, I am obsessive over the
@@ -75,8 +75,6 @@ const Summary: React.FC = () => {
           </View>
         ))}
       </View>
-      <Heading>My Role</Heading>
-      <Paragraph>a</Paragraph>
     </>
   );
 };

@@ -38,6 +38,8 @@ const career: CareerEntry[] = [
       "Python",
       "Django",
       "Postgres",
+      "Storybook",
+      "Jest",
     ],
     role: "Senior Frontend Engineer",
     summary: `Joined founding frontend engineer to double team size and work on
@@ -68,11 +70,14 @@ const career: CareerEntry[] = [
       "React Native",
       "Expo",
       "Next.js",
+      "Three.js",
       "GraphQL",
       "Turborepo",
       "GCP",
       "Firestore",
       "ConcourseCI",
+      "Storybook",
+      "Jest",
     ],
     industry: ["Finance", "Taxation", "B2B", "Start-up", "SaaS"],
     role: "Senior Fullstack Engineer",
@@ -109,6 +114,9 @@ const career: CareerEntry[] = [
       "GCP",
       "Firestore",
       "Algolia",
+      "Storybook",
+      "Cypress",
+      "Jest",
     ],
     industry: ["Finance", "Stock Exchange", "Start-up", "SaaS"],
     role: "Senior Fullstack Engineer",
@@ -139,11 +147,15 @@ const career: CareerEntry[] = [
       "Redux",
       "Redux Saga",
       "WebGL",
+      "Three.js",
       "WebVR",
       "Styled Components",
       "Elixir",
       "Postgres",
       "ElasticSearch",
+      "Storybook",
+      "Cypress",
+      "Jest",
     ],
     industry: [
       "Stock Content",
@@ -157,7 +169,7 @@ const career: CareerEntry[] = [
     summary: `Hired as the founding frontend engineer to replace outdated Vue.js
     & Elixir template based application implemented by the interim CTO.
     Eventually lead to promotion of technical lead as team expanded and led
-    agile SDLC process across design, backend, and frontend disciplines`,
+    agile SDLC process across design, backend, and frontend disciplines.`,
     personalHighlights: [
       `Wrote a bespoke 360 video/image viewer with cubemap, equirectangular, and
        SBS/OU 3D support to replace out of the box offerings that relied on the
@@ -165,7 +177,7 @@ const career: CareerEntry[] = [
       bundle size from ~250KB gzipped to ~25KB gzipped, whilst supporting
       additional features such as native VR headset playback via the newly
       available WebVR APIs`,
-      `After company downsize, took on fullstack responsibilities and aided the CTO in the maintenance & improvement of our Elixir backend API.`,
+      `Architected and built our Three.js/Aframe WYSIWYG SaaS platform`,
     ],
     website: "https://stock.blend.media/360-stock",
     dateStart: parse("2017-03-21"),

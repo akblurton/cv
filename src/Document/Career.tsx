@@ -104,7 +104,6 @@ const Career: React.FC = () => {
           </View>
         </View>
       ))}
-      §
       {oldCareer.map((job, index) => (
         <View wrap={false} style={styles.entry} key={index}>
           <View style={styles.header}>

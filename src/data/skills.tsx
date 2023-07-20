@@ -26,6 +26,10 @@ const skills = [
     icon: Logos.NextJS,
   },
   {
+    name: "Three.js",
+    icon: Logos.Three,
+  },
+  {
     name: "Styled Components",
     icon: Logos.StyledComponents,
   },
@@ -64,6 +68,10 @@ const skills = [
   {
     name: "Cypress",
     icon: Logos.Cypress,
+  },
+  {
+    name: "Storybook",
+    icon: Logos.Storybook,
   },
   {
     name: "CircleCI",

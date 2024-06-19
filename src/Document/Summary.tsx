@@ -37,20 +37,20 @@ const styles = StyleSheet.create({
 const Summary: React.FC = () => {
   return (
     <>
-      <Heading>A little about me</Heading>
+      <Heading>Overview</Heading>
       <Paragraph>
-        I am a fullstack engineer with over a decade of experience in the
-        industry. Primarily stationed in the fast moving world of start ups, I
-        am a firm believer that engineers should be engaged with product process
-        & discovery from day 1.
+        Hello! I am a principle/Lead full stack engineer with over 10 years of
+        experience in a variety of technologies- specialising in React,
+        Serverless, and Typescript code bases. Looking for exciting product and
+        technical challenges
       </Paragraph>
       <Paragraph>
-        With a background in frontend engineering, I am obsessive over the
-        little details in UI/UX- pushing for that "something extra" when time
-        allows to elevate a product to first class. Working in React codebases
-        for over 7 years has given me a wealth of knowledge on how to optimize,
-        build, and structure web applications regardless of the domain or end
-        user.
+        Working across many different platforms and devices, I am obsessive over
+        the little details in UI/UX- pushing for that "something extra" when
+        time allows to elevate a product to first class. Working in React
+        codebases for over 7 years has given me a wealth of knowledge on how to
+        optimize, build, and structure web applications regardless of the domain
+        or end user.
       </Paragraph>
       <Paragraph>
         I am at my best when I'm making a significant impact- whether that's
@@ -75,8 +75,6 @@ const Summary: React.FC = () => {
           </View>
         ))}
       </View>
-      <Heading>My Role</Heading>
-      <Paragraph>a</Paragraph>
     </>
   );
 };

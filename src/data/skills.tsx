@@ -26,12 +26,16 @@ const skills = [
     icon: Logos.NextJS,
   },
   {
+    name: "Three.js",
+    icon: Logos.Three,
+  },
+  {
     name: "Styled Components",
     icon: Logos.StyledComponents,
   },
   {
-    name: "SASS",
-    icon: Logos.SASS,
+    name: "TailwindCSS",
+    icon: Logos.Tailwind,
   },
   {
     name: "Stylus",
@@ -66,6 +70,10 @@ const skills = [
     icon: Logos.Cypress,
   },
   {
+    name: "Storybook",
+    icon: Logos.Storybook,
+  },
+  {
     name: "CircleCI",
     icon: Logos.CircleCI,
   },
@@ -76,6 +84,10 @@ const skills = [
   {
     name: "Elixir",
     icon: Logos.Elixir,
+  },
+  {
+    name: "Phoenix Framework",
+    icon: Logos.Phoenix,
   },
   {
     name: "PostgreSQL",
@@ -92,6 +104,10 @@ const skills = [
   {
     name: "Zeplin",
     icon: Logos.Zeplin,
+  },
+  {
+    name: "JIRA",
+    icon: Logos.JIRA,
   },
 ] as const;
 

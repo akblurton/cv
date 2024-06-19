@@ -4,6 +4,7 @@ import Page from "./Page";
 import Socials from "./Socials";
 import Summary from "./Summary";
 import Career from "./Career";
+import Interests from "./Interests";
 
 import "../data/career";
 
@@ -13,9 +14,8 @@ const Document: React.FC = () => {
       <Page>
         <Socials />
         <Summary />
-      </Page>
-      <Page>
         <Career />
+        <Interests />
       </Page>
     </Doc>
   );

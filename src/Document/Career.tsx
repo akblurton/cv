@@ -1,7 +1,7 @@
 import { Heading } from "./Typography";
 
 import careerHistory, { oldCareer } from "../data/career";
-import { StyleSheet, Text, View } from "@react-pdf/renderer";
+import { Link, StyleSheet, Text, View } from "@react-pdf/renderer";
 import Image from "./Image";
 import { BOLD } from "./font";
 import { format } from "date-fns";
@@ -29,9 +29,12 @@ const styles = StyleSheet.create({
   jobtitle: {
     fontSize: "9pt",
   },
+  website: {
+    color: "#5f6d43",
+    marginLeft: "0.4cm",
+  },
   role: {
     fontFamily: BOLD,
-    color: "#5f6d43",
   },
   meta: {
     fontSize: "9pt",
@@ -71,7 +74,13 @@ const Career: React.FC = () => {
               <View style={styles.logo} />
             )}
             <View style={styles.jobtitle}>
-              <Text>{job.employer}</Text>
+              <Text>
+                {job.employer}
+                {" — "}
+                <Link style={styles.website} src={job.website}>
+                  {job.website}
+                </Link>
+              </Text>
               <Text style={styles.role}>{job.role}</Text>
             </View>
             <View style={styles.meta}>
@@ -95,7 +104,6 @@ const Career: React.FC = () => {
           </View>
         </View>
       ))}
-      §
       {oldCareer.map((job, index) => (
         <View wrap={false} style={styles.entry} key={index}>
           <View style={styles.header}>

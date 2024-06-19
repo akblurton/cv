@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
   footer: {
     fontFamily: FontFamily,
     paddingHorizontal: "0.5cm",
-    paddingVertical: "0.5cm",
+    paddingVertical: "0.2cm",
     position: "absolute",
     bottom: "0",
     left: "0",
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             {pageNumber} of {totalPages}
           </Text>
           <Text style={styles.gen}>
-            Generated with react-pdf |{" "}
+            Created with react-pdf |{" "}
             <Link style={styles.link} src="https://github.com/akblurton/cv">
               Github Source
             </Link>

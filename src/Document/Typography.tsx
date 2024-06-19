@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     marginBottom: "0.2cm",
   },
   paragraph: {
-    fontSize: "10pt",
+    fontSize: "9pt",
     marginBottom: "0.4cm",
   },
 });

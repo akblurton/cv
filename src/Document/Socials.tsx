@@ -8,11 +8,12 @@ const styles = StyleSheet.create({
   socials: {
     fontFamily: FontFamily,
     paddingHorizontal: "0.5cm",
-    paddingVertical: "0.5cm",
+    paddingVertical: "0.3cm",
     display: "flex",
     flexDirection: "row",
     marginHorizontal: "2cm",
     // marginTop: "1cm",
+    marginBottom: "1cm",
   },
   cell: {
     fontSize: "10pt",

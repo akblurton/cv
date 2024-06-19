@@ -10,12 +10,47 @@ type CareerEntry = {
   summary: string;
   personalHighlights: string[];
   logo?: string;
-  website?: string;
+  website: string;
   dateStart: Date;
   dateEnd?: Date;
 };
 
 const career: CareerEntry[] = [
+  {
+    employer: "FundamentalVR",
+    companySize: [70, 120],
+    industry: ["Health Tech", "VR", "Start-up", "Scale-up"],
+    tech: [
+      "Typescript",
+      "AWS Lambda",
+      "OpenSearch",
+      "Electron",
+      "DynamoDB",
+      "React",
+      "Redux",
+      "RTK Query",
+      "Turborepo",
+      "Github Actions",
+      "TailwindCSS",
+      "Jest",
+    ],
+    role: "Staff Software Engineer",
+    summary: `Part of the internal infrastructure team, tasked with maintaining
+     and building out our web services both frontend and backend. Additionally
+     working as the primary infrastructure engineer on a long term client
+     project (12+ months) involving the design, prototyping, and implementation
+     of bespoke APIs, calculation engines and dashboard applications.
+    `,
+    personalHighlights: [
+      `Implemented responsive frontends to search, browse and evaluate session data for all users of a brand new platform`,
+      `Backend APIs implemented to support cross-device communication via WebSockets in addition to user session ingestion pipeline with OpenSearch and DynamoDB`,
+      `Created bespoke calculation engine that allowed real time collection of user performance during usage of an existing (client provided) desktop application.`,
+      `Engaged in client communications to determine technical requirements, risk assessment, and integration of preferred SSO platform`,
+    ],
+    website: "https://fundamentalsurgery.com/",
+    dateStart: parse("2023-08-11"),
+    logo: Logos.FVR,
+  },
   {
     employer: "Minimum",
     companySize: [15, 15],
@@ -35,8 +70,13 @@ const career: CareerEntry[] = [
       "Turborepo",
       "Styled Components",
       "Auth0",
+      "Python",
+      "Django",
+      "Postgres",
+      "Storybook",
+      "Jest",
     ],
-    role: "Senior Frontend Engineer",
+    role: "Senior Engineer",
     summary: `Joined founding frontend engineer to double team size and work on
       new features alongside existing backend team.
     `,
@@ -51,47 +91,10 @@ const career: CareerEntry[] = [
       code duplication, better type checking, and increased guard behaviour on
       erroneous network calls.`,
     ],
-    website: "https://stock.blend.media/360-stock",
-    dateStart: parse("2022-10-11"),
-    dateEnd: parse("2022-06-01"),
+    website: "https://minimum.com",
+    dateStart: parse("2022-09-11"),
+    dateEnd: parse("2023-08-01"),
     logo: Logos.Minimum,
-  },
-  {
-    employer: "Ember",
-    companySize: [20, 20],
-    tech: [
-      "Typescript",
-      "React",
-      "React Native",
-      "Expo",
-      "Next.js",
-      "GraphQL",
-      "Turborepo",
-      "GCP",
-      "ConcourseCI",
-    ],
-    industry: ["Finance", "Taxation", "B2B", "Start-up", "SaaS"],
-    role: "Senior Fullstack Engineer",
-    summary: `Hired as new member of the product engineering team, role involved
-     building out newly scoped features and bug fixes.`,
-    personalHighlights: [
-      `Lead engineering work to convert the existing
-       monolith code repository to a monorepo using the turborepo build system.
-       Involved updating and fixing react-native build systems, updates to CI
-       tooling, and upgrading of most expo dependencies.
-    `,
-      `
-      Took over technical lead responsibilities for newly created squad
-      dedicated to feature rollout (separated from backend platform and
-      maintenance teams). Majority of time spend working alongside product &
-      design leads to define upcoming sprints. Additionally mentored remaining
-      engineers on the team on best practices for testing and react.
-    `,
-    ],
-    website: "https://stock.blend.media/360-stock",
-    dateStart: parse("2022-06-17"),
-    dateEnd: parse("2022-10-01"),
-    logo: Logos.Ember,
   },
   {
     employer: "Freetrade",
@@ -105,6 +108,9 @@ const career: CareerEntry[] = [
       "GCP",
       "Firestore",
       "Algolia",
+      "Storybook",
+      "Cypress",
+      "Jest",
     ],
     industry: ["Finance", "Stock Exchange", "Start-up", "SaaS"],
     role: "Senior Fullstack Engineer",
@@ -121,7 +127,7 @@ const career: CareerEntry[] = [
        (backend-for-frontend) to a GraphQL implementation, including integration
        and unit test suites.`,
     ],
-    website: "https://stock.blend.media/360-stock",
+    website: "https://web.freetrade.io",
     dateStart: parse("2022-03-10"),
     dateEnd: parse("2022-06-01"),
     logo: Logos.Freetrade,
@@ -135,11 +141,15 @@ const career: CareerEntry[] = [
       "Redux",
       "Redux Saga",
       "WebGL",
+      "Three.js",
       "WebVR",
       "Styled Components",
       "Elixir",
       "Postgres",
       "ElasticSearch",
+      "Storybook",
+      "Cypress",
+      "Jest",
     ],
     industry: [
       "Stock Content",
@@ -153,7 +163,7 @@ const career: CareerEntry[] = [
     summary: `Hired as the founding frontend engineer to replace outdated Vue.js
     & Elixir template based application implemented by the interim CTO.
     Eventually lead to promotion of technical lead as team expanded and led
-    agile SDLC process across design, backend, and frontend disciplines`,
+    agile SDLC process across design, backend, and frontend disciplines.`,
     personalHighlights: [
       `Wrote a bespoke 360 video/image viewer with cubemap, equirectangular, and
        SBS/OU 3D support to replace out of the box offerings that relied on the
@@ -161,7 +171,7 @@ const career: CareerEntry[] = [
       bundle size from ~250KB gzipped to ~25KB gzipped, whilst supporting
       additional features such as native VR headset playback via the newly
       available WebVR APIs`,
-      `After company downsize, took on fullstack responsibilities and aided the CTO in the maintenance & improvement of our Elixir backend API.`,
+      `Architected and built our Three.js/Aframe WYSIWYG SaaS platform`,
     ],
     website: "https://stock.blend.media/360-stock",
     dateStart: parse("2017-03-21"),

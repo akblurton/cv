@@ -39,10 +39,10 @@ const Summary: React.FC = () => {
     <>
       <Heading>Overview</Heading>
       <Paragraph>
-        Hello! I am a principle/Lead full stack engineer with over 10 years of
+        Hello! I am a principal/lead full stack engineer with over 10 years of
         experience in a variety of technologies- specialising in React,
         Serverless, and Typescript code bases. Looking for exciting product and
-        technical challenges
+        technical challenges.
       </Paragraph>
       <Paragraph>
         Working across many different platforms and devices, I am obsessive over

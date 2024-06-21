@@ -20,7 +20,7 @@ const Header: React.FC = () => {
   return (
     <View fixed={true} style={styles.header}>
       <Text style={styles.name}>Ashley Blurton</Text>
-      <Text style={styles.role}>Fullstack Engineer</Text>
+      <Text style={styles.role}>Full Stack Engineer</Text>
     </View>
   );
 };
